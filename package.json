@@ -1,0 +1,28 @@
+{
+  "name": "Discord Bot Template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:adrenallen/nodejs-discord-bot-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrenallen/nodejs-discord-bot-template/issues"
+  },
+  "homepage": "https://github.com/adrenallen/nodejs-discord-bot-template/blob/master/readme.md",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
